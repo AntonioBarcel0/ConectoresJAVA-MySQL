@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		PaisDAO paisDAO = new PaisDAO();
+		ActorDAO actorDAO = new ActorDAO();
+ 		PeliculaDAO peliculaDAO = new PeliculaDAO();
 		int opcion;
 
 		do {
@@ -55,6 +58,36 @@ public class Main {
 
 		} while (opcion != 9);
 	}
+	
+	public static void insertarActor(Scanner scanner) {
+		
+	}
+	
+	public static void insertarPelicula(Scanner scanner) {
+		
+	}
 
+	public static void insertarPais(Scanner scanner) {
+		
+	}
 
+	public static void listarActoresConPais(Scanner scanner) {
+		
+	}
+	
+	public static void actualizarNombreActor(Scanner scanner) {
+		
+	}
+	
+	public static void eliminarActorID(Scanner scanner) {
+		
+	}
+	
+	public static void listarPeliculasConGeneroDirector(Scanner scanner) {
+		
+	}
+	
+	public static void eliminarPaisPorID(Scanner scanner) {
+		
+	}
 }
